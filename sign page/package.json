@@ -1,0 +1,25 @@
+{
+  "name": "authentication-user-profile-api",
+  "version": "1.0.0",
+  "description": "Authentication and User Profile API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.0",
+    "cloudinary": "^2.0.0",
+    "dotenv": "^17.0.0",
+    "express": "^5.0.0",
+    "express-rate-limit": "^7.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "joi": "^18.0.0",
+    "mongoose": "^8.0.0",
+    "multer": "^2.0.0",
+    "nodemailer": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
